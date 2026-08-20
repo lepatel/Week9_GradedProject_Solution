@@ -1,0 +1,41 @@
+.qd-container {
+  background-color: var(--bg-primary);
+  min-height: 100vh;
+  padding: 1.5rem 0.5rem;
+}
+
+.qd-loading-container {
+  background-color: var(--bg-primary);
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+.qd-summarize-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.qd-summarize-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.qd-summary-banner {
+  border-left: 4px solid #667eea;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.qd-summary-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #667eea;
+}
+
+.qd-summary-text {
+  color: var(--text-color);
+  line-height: 1.6;
+}
